@@ -1,0 +1,12 @@
+spring:
+   application:
+      name: bookfinder
+   
+server:
+   port: 8095
+   servlet.contextPath: /bookfinder
+
+elasticsearch:
+   clustername: shahriar-cluster
+   host: localhost
+   port: 9200
